@@ -1,113 +1,95 @@
-import Image from "next/image";
+import Image from 'next/image'
+import { EnvelopeIcon } from '@heroicons/react/20/solid'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+    <main className='flex min-h-screen flex-col items-center  p-12 lg:p-24 mt-24'>
+      <div className="relative flex place-items-center before:absolute  before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
+          className='relative'
+          src='/next.svg'
+          alt='Next.js Logo'
           width={180}
           height={37}
           priority
         />
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <div className='mt-32 lg:max-w-3xl lg:w-full  text-lg lg:text-xl space-y-5'>
+        <p> Leads are super expensive.</p>
+        <p>And I’m afraid we can’t make your marketing campaigns cheaper.</p>
+        <p>
+          But we have a simple idea to get the maximum number of qualified leads
+          per visitor.
+        </p>
+        <p>You don’t need forms. You need fields.</p>
+        <p>
+          Today most forms are submitted when a CTA is pressed. But most leads
+          drop before pressing that so-tested button.
+        </p>
+        <p>
+          But what if we save the information in every field completion? Imagine
+          a form with 5 fields. If the visitor abandons completing only 3 you
+          got nothing.
+        </p>
+        <p>
+          With Fields you at least have, for example, the work email, the name
+          and the job title.
+        </p>
+        <p>
+          You may be thinking: Cool but I need ALL information to qualify the
+          lead and send it to the CRM.
+        </p>
+        <p>
+          We saved the fields but you can decide not to send the lead to the CRM
+          until you got all the data you need. But having at least some
+          information unblocks a stunning amount of opportunities.
+        </p>
+        <p>
+          The first one is obvious, maybe you want to use the outbound team to
+          contact uncompleted leads. With the work email and name a lead miner
+          or SDR can complete the rest information. And this cold call won’t be
+          so cold.
+        </p>
+        <p>
+          But the most interesting ones are related with conversion. As we know
+          some fields, next time this user comes back and enters the email we
+          won’t need to ask for the name and the job title. We already know!
+        </p>
+        <p>
+          And we can do even more. As we have per-field logic we can real-time
+          enrich the contact. Imagine the visitor enters the email, we can
+          search for the rest information (and even more!) in enrichment
+          services or your CRM and then hide or autocomplete the rest of the
+          fields boosting conversion.
+        </p>
+        <p>
+          We can also verify the email, the phone and even the name in real time
+          to prevent fake leads that waste a ton of sales time. We all know
+          Micky Mouse is not looking for a demo.
+        </p>
+        <p>
+          With Fields you make the most of your marketing investment and reduce
+          noise in your CRM saving a ton of sales time.
+        </p>
+        <p>
+          We are building fields right now! If you are interested just give us
+          your contact information in this... field
+        </p>
+      </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className='relative mt-16 rounded-xl shadow-sm min-w-96'>
+        <div className='pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3'>
+          <EnvelopeIcon className='h-5 w-5 text-gray-400' aria-hidden='true' />
+        </div>
+        <input
+          type='email'
+          name='email'
+          id='email'
+          className='block w-full rounded-md border-0 py-3 pl-12 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6'
+          placeholder='micky@mouse.com'
+        />
       </div>
     </main>
-  );
+  )
 }
