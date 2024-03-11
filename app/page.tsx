@@ -74,8 +74,22 @@ export default function Home() {
         </p>
         <p>
           We are building fields right now! If you are interested send a{' '}
-          <a href='https://linkedin.com/jacintofleta'>LinkedIn</a> or{' '}
-          <a href='https://x.com/jacintofleta'>X</a> direct message.
+          <a
+            className='underline'
+            href='https://www.linkedin.com/in/jacintofleta/'
+            target='_blank'
+          >
+            LinkedIn
+          </a>{' '}
+          or{' '}
+          <a
+            className='underline'
+            href='https://x.com/jacintofleta'
+            target='_blank'
+          >
+            X
+          </a>{' '}
+          direct message.
         </p>
       </div>
     </main>
