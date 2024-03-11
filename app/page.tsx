@@ -73,22 +73,10 @@ export default function Home() {
           noise in your CRM saving a ton of sales time.
         </p>
         <p>
-          We are building fields right now! If you are interested just give us
-          your contact information in this... field
+          We are building fields right now! If you are interested send a{' '}
+          <a href='https://linkedin.com/jacintofleta'>LinkedIn</a> or{' '}
+          <a href='https://x.com/jacintofleta'>X</a> direct message.
         </p>
-      </div>
-
-      <div className='relative mt-16 rounded-xl shadow-sm min-w-96'>
-        <div className='pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3'>
-          <EnvelopeIcon className='h-5 w-5 text-gray-400' aria-hidden='true' />
-        </div>
-        <input
-          type='email'
-          name='email'
-          id='email'
-          className='block w-full rounded-md border-0 py-3 pl-12 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6'
-          placeholder='micky@mouse.com'
-        />
       </div>
     </main>
   )
