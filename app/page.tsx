@@ -16,34 +16,48 @@ export default function Home() {
       </div>
 
       <div className='mt-32 lg:max-w-3xl lg:w-full  text-lg lg:text-xl space-y-5'>
-        <p> Leads are super expensive.</p>
-        <p>And I’m afraid we can’t make your marketing campaigns cheaper.</p>
+        <p>Leads are super expensive.</p>
+        <p>And I’m afraid we can’t lower the CMP.</p>
         <p>
-          But we have a simple idea to get the maximum number of qualified leads
-          per visitor.
-        </p>
-        <p>You don’t need forms. You need fields.</p>
-        <p>
-          Today most forms are submitted when a CTA is pressed. But most leads
-          drop before pressing that so-tested button.
+          But we have a simple idea to boost the lead generation with your same
+          campaigns: we'll give you an instant landing page per segment.
         </p>
         <p>
-          But what if we save the information in every field completion? Imagine
-          a form with 5 fields. If the visitor abandons completing only 3 you
-          got nothing.
+          As we know your audience we can adapt it with AI to x2 conversions.
+          Not only that, we automatically run A/B tests to improve it even more.
         </p>
         <p>
-          With Fields you at least have, for example, the work email, the name
-          and the job title.
+          You spend so much time optimising your campaigns, let us help you with
+          the landings.
+        </p>
+
+        <p>
+          Imagine being able to create some adsets and have customised landings
+          in seconds. All with your brand.
         </p>
         <p>
-          You may be thinking: Cool but I need ALL information to qualify the
-          lead and send it to the CRM.
+          We use up-to-date APIs to send the conversions to the Ad platforms, so
+          you are not only getting high performing pages but also improving your
+          campaigns. And you can set up all of this in a few clicks. No
+          developers needed.
         </p>
         <p>
-          We saved the fields but you can decide not to send the lead to the CRM
-          until you got all the data you need. But having at least some
-          information unblocks a stunning amount of opportunities.
+          As we don't need pixels we can get rid of the annoying cookie banners.
+          Reducing noise and one click in the conversion path.
+        </p>
+        <p>
+          You may be thinking: Cool but I need ALL information in the CRM. No
+          problem. You can easily connect your CRM and create a form with all
+          the fields you need.
+        </p>
+        <p>
+          We will automatically apply the best conversion techniques to the
+          form. We have been doing this for years.
+        </p>
+        <p>
+          We capture the completion of every field, so even if the visitor
+          doesn't submit the form you still get information. This unlocks
+          several opportunities.
         </p>
         <p>
           The first one is obvious, maybe you want to use the outbound team to
@@ -69,11 +83,25 @@ export default function Home() {
           Micky Mouse is not looking for a demo.
         </p>
         <p>
-          With Fields you make the most of your marketing investment and reduce
-          noise in your CRM saving a ton of sales time.
+          After the form is submitted you can connect several calendars from
+          your sales team so you don't only get the lead information but also an
+          appointment.
         </p>
+
         <p>
-          We are building fields right now! If you are interested send a{' '}
+          Our mission is to generate the best landing pages for performance
+          teams so they can focus on what they do best: optimising campaigns.
+        </p>
+
+        <p>
+          The price is $1000/month for unlimited landing pages an unlimited
+          conversions. You can try for one month and if the ROI of our tool is
+          negative we will refund your money.
+        </p>
+
+        <p>
+          We are building Fields right now, if you are interested plese contact
+          through
           <a
             className='underline'
             href='https://www.linkedin.com/in/jacintofleta/'
