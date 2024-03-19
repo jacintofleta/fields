@@ -101,7 +101,7 @@ export default function Home() {
 
         <p>
           We are building Fields right now, if you are interested plese contact
-          through
+          through{' '}
           <a
             className='underline'
             href='https://www.linkedin.com/in/jacintofleta/'
