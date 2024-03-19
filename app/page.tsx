@@ -17,10 +17,10 @@ export default function Home() {
 
       <div className='mt-32 lg:max-w-3xl lg:w-full  text-lg lg:text-xl space-y-5'>
         <p>Leads are super expensive.</p>
-        <p>And I`m afraid we can't lower the CMP.</p>
+        <p>And I’m afraid we can’t lower the CMP.</p>
         <p>
           But we have a simple idea to boost the lead generation with your same
-          campaigns: we`ll give you an instant landing page per segment.
+          campaigns: we'll give you an instant landing page per segment.
         </p>
         <p>
           As we know your audience we can adapt it with AI to x2 conversions.
@@ -56,19 +56,19 @@ export default function Home() {
         </p>
         <p>
           We capture the completion of every field, so even if the visitor
-          doesn`t submit the form you still get information. This unlocks
+          doesn't submit the form you still get information. This unlocks
           several opportunities.
         </p>
         <p>
           The first one is obvious, maybe you want to use the outbound team to
           contact uncompleted leads. With the work email and name a lead miner
-          or SDR can complete the rest information. And this cold call won`t be
+          or SDR can complete the rest information. And this cold call won’t be
           so cold.
         </p>
         <p>
           But the most interesting ones are related with conversion. As we know
           some fields, next time this user comes back and enters the email we
-          won't need to ask for the name and the job title. We already know!
+          won’t need to ask for the name and the job title. We already know!
         </p>
         <p>
           And we can do even more. As we have per-field logic we can real-time
