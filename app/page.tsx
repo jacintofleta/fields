@@ -17,7 +17,7 @@ export default function Home() {
 
       <div className='mt-32 lg:max-w-3xl lg:w-full  text-lg lg:text-xl space-y-5'>
         <p>Leads are super expensive.</p>
-        <p>And I’m afraid we can’t lower the CMP.</p>
+        <p>And I'm afraid we can't lower the CMP.</p>
         <p>
           But we have a simple idea to boost the lead generation with your same
           campaigns: we'll give you an instant landing page per segment.
@@ -62,13 +62,13 @@ export default function Home() {
         <p>
           The first one is obvious, maybe you want to use the outbound team to
           contact uncompleted leads. With the work email and name a lead miner
-          or SDR can complete the rest information. And this cold call won’t be
+          or SDR can complete the rest information. And this cold call won't be
           so cold.
         </p>
         <p>
           But the most interesting ones are related with conversion. As we know
           some fields, next time this user comes back and enters the email we
-          won’t need to ask for the name and the job title. We already know!
+          won't need to ask for the name and the job title. We already know!
         </p>
         <p>
           And we can do even more. As we have per-field logic we can real-time
