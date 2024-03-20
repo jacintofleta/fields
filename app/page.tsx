@@ -84,32 +84,14 @@ export default function Home() {
           optimising campaigns.
         </p>
 
-        <p>
+        <p className='pb-8'>
           The price is $1000/month for unlimited landing pages an unlimited
           conversions. You can try for one month and if the ROI of our tool is
           negative we will refund your money.
         </p>
 
-        <p>
-          We are building Fields right now, if you are interested plese contact
-          through{' '}
-          <a
-            className='underline'
-            href='https://www.linkedin.com/in/jacintofleta/'
-            target='_blank'
-          >
-            LinkedIn
-          </a>{' '}
-          or{' '}
-          <a
-            className='underline'
-            href='https://x.com/jacintofleta'
-            target='_blank'
-          >
-            X
-          </a>{' '}
-          direct message.
-        </p>
+        <div data-tf-live='01HSEJT6FABJK6X3D37FZ5WTV1'></div>
+        <script src='//embed.typeform.com/next/embed.js'></script>
       </div>
     </main>
   )
