@@ -15,10 +15,11 @@ export default function Home() {
         />
       </div>
 
-      <div className='mt-32 lg:max-w-3xl lg:w-full  text-lg lg:text-xl space-y-5'>
+      <div className=' mt-32 lg:max-w-3xl lg:w-full  text-lg lg:text-xl space-y-5'>
         <p>Leads are super expensive.</p>
+
         <p>And I’m afraid we can’t lower the CMP.</p>
-        <p>
+        <p className='leading-8'>
           But we have a simple idea to boost the lead generation with your same
           campaigns: we'll give you an instant landing page per segment.
         </p>
@@ -28,21 +29,15 @@ export default function Home() {
         </p>
         <p>
           You spend so much time optimising your campaigns, let us help you with
-          the landings.
-        </p>
-
-        <p>
-          Imagine being able to create some adsets and have customised landings
-          in seconds. All with your brand.
+          the landings. All with your brand.
         </p>
         <p>
           We use up-to-date APIs to send the conversions to the Ad platforms, so
           you are not only getting high performing pages but also improving your
-          campaigns. And you can set up all of this in a few clicks. No
-          developers needed.
+          campaigns. In a few clicks. No developers needed
         </p>
         <p>
-          As we don't need pixels we can get rid of the annoying cookie banners.
+          As we don't need pixels we can get rid of the annoying cookie banner.
           Reducing noise and one click in the conversion path.
         </p>
         <p>
@@ -61,27 +56,22 @@ export default function Home() {
         </p>
         <p>
           The first one is obvious, maybe you want to use the outbound team to
-          contact uncompleted leads. With the work email and name a lead miner
-          or SDR can complete the rest information. And this cold call won’t be
-          so cold.
+          contact uncompleted leads. With the work email a lead miner or SDR can
+          complete the rest information. And this cold call won’t be so cold.
         </p>
         <p>
           But the most interesting ones are related with conversion. As we know
-          some fields, next time this user comes back and enters the email we
-          won’t need to ask for the name and the job title. We already know!
+          some fields, next time this user comes back (probably from a
+          remarketing campaign) and enters the email we won’t need to ask again
+          for some information. We already know!
         </p>
         <p>
           And we can do even more. As we have per-field logic we can real-time
-          enrich the contact. Imagine the visitor enters the email, we can
-          search for the rest information (and even more!) in enrichment
-          services or your CRM and then hide or autocomplete the rest of the
-          fields boosting conversion.
+          verify the contact, the phone and even the name in real time to
+          prevent fake leads that waste a ton of sales time. We all know Micky
+          Mouse is not looking for a demo.
         </p>
-        <p>
-          We can also verify the email, the phone and even the name in real time
-          to prevent fake leads that waste a ton of sales time. We all know
-          Micky Mouse is not looking for a demo.
-        </p>
+
         <p>
           After the form is submitted you can connect several calendars from
           your sales team so you don't only get the lead information but also an
@@ -90,7 +80,8 @@ export default function Home() {
 
         <p>
           Our mission is to generate the best landing pages for performance
-          teams so they can focus on what they do best: optimising campaigns.
+          teams of B2B businesses so they can focus on what they do best:
+          optimising campaigns.
         </p>
 
         <p>
