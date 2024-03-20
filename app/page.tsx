@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { EnvelopeIcon } from '@heroicons/react/20/solid'
+import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -91,7 +91,7 @@ export default function Home() {
         </p>
 
         <div data-tf-live='01HSEJT6FABJK6X3D37FZ5WTV1'></div>
-        <script src='//embed.typeform.com/next/embed.js'></script>
+        <Script src='//embed.typeform.com/next/embed.js' />
       </div>
     </main>
   )
