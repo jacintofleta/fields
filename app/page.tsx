@@ -25,7 +25,7 @@ export default function Home() {
         <p>The more ads, the higher probability to find gold.</p>
         <p>
           At the beginning we had only one landing page. Then, we tried creating
-          a landing page per adset segment.
+          a landing page per segment.
         </p>
         <p>The conversion skyrocketed.</p>
         <p>
